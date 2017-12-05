@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBookshelf", "MyBookshelf\MyBookshelf.csproj", "{0D887FCD-7FAF-44A2-8C24-D768291C9B65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBookshelfData", "MyBookshelfData\MyBookshelfData.csproj", "{8F1AD15D-C552-4990-ACB6-7A63DFB30599}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0D887FCD-7FAF-44A2-8C24-D768291C9B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D887FCD-7FAF-44A2-8C24-D768291C9B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D887FCD-7FAF-44A2-8C24-D768291C9B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1AD15D-C552-4990-ACB6-7A63DFB30599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1AD15D-C552-4990-ACB6-7A63DFB30599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1AD15D-C552-4990-ACB6-7A63DFB30599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1AD15D-C552-4990-ACB6-7A63DFB30599}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
