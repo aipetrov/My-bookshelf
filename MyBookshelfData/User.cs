@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyBookshelfData
 {
-    class User
+    public class User
     {
         public int Id { get; set; }
 
@@ -14,7 +14,11 @@ namespace MyBookshelfData
 
         public string Password { get; set; }
 
+        public string Name { get; set; }
+
         public DateTime Birth { get; set; }
+
+        public List<Book> ReadBooks { get; set; }
 
     }
 }

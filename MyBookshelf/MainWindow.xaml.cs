@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyBookshelfData;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,9 @@ namespace MyBookshelf
         public MainWindow()
         {
             InitializeComponent();
+
+            Context context = new Context();
+            context.Books.ToList();
         }
     }
 }
