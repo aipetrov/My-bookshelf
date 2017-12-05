@@ -15,6 +15,7 @@ namespace MyBookshelfData
         public string Password { get; set; }
 
         public DateTime Birth { get; set; }
+        public int test { get; set; }
 
     }
 }
