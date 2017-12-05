@@ -17,6 +17,7 @@ namespace MyBookshelfData
         public string Name { get; set; }
 
         public DateTime Birth { get; set; }
+        public int test { get; set; }
 
         public List<Book> ReadBooks { get; set; }
 
