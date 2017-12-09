@@ -22,9 +22,9 @@
             <RowDefinition Height="15*"/>
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <TextBox Grid.Column="1" Grid.Row="1" Text="Read Books"/>
-        <TextBox Grid.Column="1" Grid.Row="3" Text="Recommended books"/>
-        <ListBox x:Name="list_readbooks" Grid.Column="3" Grid.Row="1"/>
-        <ListBox x:Name="list_recbooks" Grid.Column="3" Grid.Row="3"/>
+        <TextBlock Grid.Column="1" Grid.Row="1" Text="Read Books"/>
+        <TextBlock Grid.Column="1" Grid.Row="3" Text="Recommended books"/>
+        <ListBox Name="list_readbooks" Grid.Column="3" Grid.Row="1"/>
+        <ListBox Name="list_recbooks" Grid.Column="3" Grid.Row="3"/>
     </Grid>
 </Window>

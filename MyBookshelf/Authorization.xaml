@@ -29,9 +29,9 @@
         </Grid.RowDefinitions>
         <TextBlock Grid.Column="1" Grid.Row="3" Text="Login"/>
         <TextBlock Grid.Column="1" Grid.Row="5" Text="Password"/>
-        <TextBox x:Name="text_login" Grid.Column="3" Grid.Row="3"/>
-        <TextBox x:Name="text_password" Grid.Column="3" Grid.Row="5"/>
-        <Button x:Name="btn_signin" Grid.Column="5" Content="Sign In" Grid.Row="1" Click="btn_signin_Click"/>
-        <Button x:Name="btn_signup" Grid.Column="5" Content="Sign Up" Grid.Row="7"/>
+        <TextBox Name="text_login" Grid.Column="3" Grid.Row="3"/>
+        <TextBox Name="text_password" Grid.Column="3" Grid.Row="5"/>
+        <Button Name="btn_signin" Grid.Column="5" Content="Sign In" Grid.Row="1"/>
+        <Button Name="btn_signup" Grid.Column="5" Content="Sign Up" Grid.Row="7"/>
     </Grid>
 </Window>

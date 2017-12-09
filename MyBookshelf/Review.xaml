@@ -25,8 +25,8 @@
             <RowDefinition Height="30*"/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-        <ListBox x:Name="list_reviews" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="3"/>
-        <Button x:Name="send_review" Content="Send a review" Grid.Column="2" Grid.Row="3"/>
-        <TextBox x:Name="write_review" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1"/>
+        <ListBox Name="list_reviews" Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="3"/>
+        <Button Name="send_review" Content="Send a review" Grid.Column="2" Grid.Row="3"/>
+        <TextBox Name="write_review" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="1"/>
     </Grid>
 </Page>
